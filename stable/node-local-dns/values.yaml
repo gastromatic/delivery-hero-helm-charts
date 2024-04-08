@@ -44,6 +44,8 @@ config:
   # -- Overrides the generated configuration with specified one.
   customConfig: ""
 
+  logging: false
+
 nameOverride: ""
 fullnameOverride: ""
 
