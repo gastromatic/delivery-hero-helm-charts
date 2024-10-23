@@ -59,6 +59,7 @@ helm install my-release oci://ghcr.io/deliveryhero/helm-charts/node-local-dns -f
 | config.localDns | string | `"169.254.20.25"` |  |
 | config.noIPv6Lookups | bool | `false` | If true, return NOERROR when attempting to resolve an IPv6 address |
 | config.prefetch | object | `{"amount":3,"duration":"30s","enabled":false,"percentage":"20%"}` | If enabled, coredns will prefetch popular items when they are about to be expunged from the cache. https://coredns.io/plugins/cache/ |
+| config.logging | bool | `false` |  |
 | config.setupInterface | bool | `true` |  |
 | config.setupIptables | bool | `true` |  |
 | config.skipTeardown | bool | `false` |  |

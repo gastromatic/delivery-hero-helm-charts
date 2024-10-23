@@ -41,6 +41,8 @@ config:
 
   skipTeardown: false
 
+  logging: false
+
   # -- Overrides the generated configuration with specified one.
   customConfig: ""
 
